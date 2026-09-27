@@ -88,27 +88,96 @@
 </style>
 </head>
 <body>
+ <header>
+    <h1>Entrenamiento y rendimiento · Prototipos</h1>
+    <p class="subtitle">
+      Entrega final infovis 2Q2026 — Valentina Barboza
+    </p>
+  </header>
+  
+  <section class="intro">
+    <span class="section-label">SOBRE ESTE PROYECTO</span>
 
-  <h1>Entrenamiento y rendimiento · Prototipos</h1>
-  <p class="subtitle">Entrega final infovis 2Q2026 — Valentina Barboza</p>
+    <h2>Mi entrenamiento, contado con datos</h2>
 
-  <div class="chart-block">
-    <h2>
-    ¿Cómo varió el tiempo dedicado a
-    <span style="color: #AD5BD3;">fuerza</span> y
-    <span style="color: #E5AD16;">carrera</span>
-    a lo largo de los meses?
-    </h2>
+    <p>
+      ¿Qué dicen mis entrenamientos sobre mis hábitos y mi
+      rendimiento? A partir de los datos registrados en Garmin,
+      exploro cómo distribuyo mi tiempo entre fuerza y carrera,
+      cómo varía el gasto calórico y qué patrones aparecen
+      a lo largo de los meses.
+    </p>
+
+    <div class="activity-tags">
+      <span class="tag-fuerza">● Fuerza</span>
+      <span class="tag-carrera">● Carrera</span>
+    </div>
+  </section>
+  
     <div class="flourish-embed flourish-chart" data-src="visualisation/30107520"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/30107520/thumbnail" width="100%" alt="Minutos dedicados a Fuerza y Carrera por mes" /></noscript></div>
-  </div>
+  <section class="chart-block">
 
-  <div class="chart-block">
+    <span class="section-label">01 / TIEMPO DE ENTRENAMIENTO</span>
+
+    <h2>
+      ¿Cómo varió el tiempo dedicado a
+      <span class="fuerza">fuerza</span> y
+      <span class="carrera">carrera</span>
+      a lo largo de los meses?
+    </h2>
+
+    <p class="chart-description">
+      Evolución mensual del tiempo dedicado a cada actividad.
+    </p>
+
+    <div class="flourish-embed flourish-chart"
+         data-src="visualisation/30107520">
+      <noscript>
+        <img
+          src="https://public.flourish.studio/visualisation/30107520/thumbnail"
+          width="100%"
+          alt="Minutos dedicados a fuerza y carrera por mes">
+      </noscript>
+    </div>
+
+  </section>
+  
     <div class="flourish-embed flourish-scatter" data-src="visualisation/30107873"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/30107873/thumbnail" width="100%" alt="scatter visualization" /></noscript></div>
-  </div>
+  <section class="chart-block">
+
+    <span class="section-label">02 / GASTO CALÓRICO</span>
+
+    <div class="flourish-embed flourish-scatter"
+         data-src="visualisation/30107873">
+      <noscript>
+        <img
+          src="https://public.flourish.studio/visualisation/30107873/thumbnail"
+          width="100%"
+          alt="Relación entre duración y gasto calórico en fuerza y carrera">
+      </noscript>
+    </div>
+
+    <div class="chart-note">
+      <strong>¿Qué estamos comparando?</strong>
+      <p>
+        La relación entre la duración y el gasto calórico
+        estimado en sesiones de fuerza y carrera de al
+        menos 20 minutos. Las líneas muestran la tendencia
+        de cada actividad.
+      </p>
+    </div>
+
+  </section>
   
   <footer>
-    Fuente: datos personales de Garmin Connect / TrainingPeaks, feb–ago 2026.
+    <p>
+      Fuente: datos personales de Garmin Connect /
+      TrainingPeaks, febrero–septiempre de 2026.
+    </p>
+    <p>Visualización de Datos Personales · 2Q2026</p>
   </footer>
+
+  <script src="https://public.flourish.studio/resources/embed.js"></script>
 
 </body>
 </html>
