@@ -85,6 +85,88 @@
       font-size: 1.4rem;
     }
   }
+  .intro {
+  background: rgba(255, 255, 255, 0.8);
+  border-left: 5px solid #ad5bd3;
+  border-radius: 18px;
+  padding: 30px;
+  margin: 35px 0 45px;
+  box-shadow: 0 8px 28px rgba(64, 36, 85, 0.06);
+}
+
+.intro h2 {
+  font-size: 1.8rem;
+  margin: 14px 0;
+}
+
+.intro p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #555;
+  max-width: 850px;
+}
+
+/* ETIQUETAS */
+.section-label {
+  display: inline-block;
+  color: #8650ab;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  margin-bottom: 14px;
+}
+
+.activity-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.tag-fuerza,
+.tag-carrera {
+  padding: 9px 18px;
+  border-radius: 30px;
+  font-weight: 700;
+}
+
+.tag-fuerza {
+  background: #f0dff8;
+  color: #954ac2;
+}
+
+.tag-carrera {
+  background: #fff0c2;
+  color: #946700;
+}
+
+/* TÍTULOS Y TEXTOS */
+.fuerza {
+  color: #ad5bd3;
+}
+
+.carrera {
+  color: #dca319;
+}
+
+.chart-description {
+  color: #777;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.chart-note {
+  background: #f7f2fb;
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin-top: 20px;
+  color: #51465b;
+  line-height: 1.6;
+}
+
+.chart-note p {
+  margin-bottom: 0;
+}
 </style>
 </head>
 <body>
@@ -114,9 +196,7 @@
     </div>
   </section>
   
-    <div class="flourish-embed flourish-chart" data-src="visualisation/30107520"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/30107520/thumbnail" width="100%" alt="Minutos dedicados a Fuerza y Carrera por mes" /></noscript></div>
   <section class="chart-block">
-
     <span class="section-label">01 / TIEMPO DE ENTRENAMIENTO</span>
 
     <h2>
@@ -139,10 +219,8 @@
           alt="Minutos dedicados a fuerza y carrera por mes">
       </noscript>
     </div>
-
   </section>
   
-    <div class="flourish-embed flourish-scatter" data-src="visualisation/30107873"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/30107873/thumbnail" width="100%" alt="scatter visualization" /></noscript></div>
   <section class="chart-block">
 
     <span class="section-label">02 / GASTO CALÓRICO</span>
@@ -172,7 +250,7 @@
   <footer>
     <p>
       Fuente: datos personales de Garmin Connect /
-      TrainingPeaks, febrero–septiempre de 2026.
+      TrainingPeaks, febrero–septiembre de 2026.
     </p>
     <p>Visualización de Datos Personales · 2Q2026</p>
   </footer>
